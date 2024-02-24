@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+html, 
+body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.main_section{
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top:  40px;
+    padding-left: 80px;
+}
+.lgtext{
+
+    font-size: 30px;
+    font-weight: 500px;
+}
+.black_box{
+    background-color: black;
+padding: 15px;
+}
+.black_box h2{
+    font-weight: 300 ;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+
+}
+.black_box  h2 span{
+font-weight: 200;
+font-size: 80px;
+}
+
+.work {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  .grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: 200px;
+    height: 150px;
+    border-radius: 13px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+    transition: 0.2s ease-in-out;
+  }
+    </style>
+</head>
+<body>
+    <section class="main_section">
+        <div class="text_container"><h2> <span class="lgtext">Hi,</span> I am Anikesh Sharma</h2>
+        <h1 class="lgtext">FULL STACK DEVELOPER</h1></div>
+    </section>
+
+    <section class="black_box">
+        <h2> WORK, I CAN DO FOR <SPan>YOU</SPan></h2>
+    </section>
+
+    <section class="work">
+        <div class="card">
+            <div class="image_container">
+                <img src="images/web.png" alt="web_document">
+            </div>
+            <div class="card_container">
+                <h3>Web Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum sed laborum nulla odit, voluptas commodi incidunt eum dolorem aspernatur dolorum</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image_container">
+                <img src="images/mobile.png "alt="web_documennt">
+            </div>
+            <div class="card_container">
+                <h3>App Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum sed laborum nulla odit, voluptas commodi incidunt eum dolorem aspernatur </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image_container">
+                <img src="images/uiux.png" alt="web_documennt">
+            </div>
+            <div class="card_container">
+                <h3> UI UX Design</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum sed laborum nulla odit, voluptas commodi incidunt eum dolorem aspernatur .</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
